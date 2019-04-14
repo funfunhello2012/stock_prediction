@@ -14,3 +14,5 @@
 
 其中，自回归AR模型描述的是当前值与历史值之间的关系。移动平均模型MA描述的是自回归部分的误差累计。ARMA(p,q)模型中包含了p个自回归项和q个移动平均项，说白了ARMA模型就是用过去一些时间点和噪声的线性组合来预测现在的时间，至于参数需要在训练的过程中调优，看选择几个点（p）几个（q）白噪声。
 ![AR模型](https://github.com/funfunhello2012/stock_prediction/blob/master/%E8%87%AA%E5%9B%9E%E5%BD%92AR%E6%A8%A1%E5%9E%8B.png)
+![MA模型](https://github.com/funfunhello2012/stock_prediction/blob/master/%E8%87%AA%E5%9B%9E%E5%BD%92AR%E6%A8%A1%E5%9E%8B.png)
+![ARMA模型](https://github.com/funfunhello2012/stock_prediction/blob/master/ARMA%E6%A8%A1%E5%9E%8B.png)
